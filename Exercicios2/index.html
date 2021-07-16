@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Blog - Discover</title>
+  </head>
+
+  <style>
+    .active {
+      color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+  </style>
+
+  <body>
+    <header class="bg">
+      <h1 class="title">Meu Blog</h1>
+    </header>
+
+    <script>
+      // Manipulação elementos
+      // Atributos
+
+      const header = document.querySelector('header')
+      header.setAttribute('id', 'header')
+
+      const headerID = document.querySelector('#header')
+
+      header.removeAttribute('class')
+
+      console.log(headerID)
+
+      // Alterando estilos
+      const element = document.querySelector('body')
+
+      element.style.backgroundColor = 'rgb(249, 243, 210)'
+    </script>
+
+    <script src="script.js"></script>
+    <script src="parent.js"></script>
+  </body>
+</html>
