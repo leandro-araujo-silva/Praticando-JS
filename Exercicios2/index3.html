@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bora jogar</title>
+  </head>
+
+  <style>
+    body {
+      background-color: rgb(2, 49, 206);
+    }
+
+    header {
+      color: white;
+    }
+
+    header h1 {
+      width: 20%;
+      background-color: yellowgreen;
+    }
+  </style>
+
+  <body>
+    <header>
+      <h1>Jogando...</h1>
+      <input type="text" />
+    </header>
+    <script>
+      // Eventos
+      const h1 = document.querySelector('h1')
+      h1.addEventListener('click', print)
+
+      function print() {
+        alert('Não pertube!')
+      }
+
+      // Eventos
+      // argumento event
+      const input = document.querySelector('input')
+
+      input.onkeydown = function (event) {
+        console.log(event.currentTarget.value)
+      }
+    </script>
+  </body>
+</html>

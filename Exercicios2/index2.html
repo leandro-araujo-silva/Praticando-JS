@@ -19,7 +19,8 @@
 
   <body>
     <header>
-      <h1>Codando...</h1>
+      <h1 onclick="print()" onmouseover="move()">Codando...</h1>
+      <input type="text" name="input" id="input">
     </header>
 
     <script>
@@ -40,8 +41,9 @@
       body.insertBefore(div, script);
 
       // Interagindo com o usuário
-      let usuario = prompt('Qual o seu nome?');
-      alert(`Bora codar, ${usuario}!`)
+      //let usuario = prompt('Qual o seu nome?');
+      //alert(`Bora codar, ${usuario}!`)
     </script>
+    <script src="eventos.js"></script>
   </body>
 </html>
