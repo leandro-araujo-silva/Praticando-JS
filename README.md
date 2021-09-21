@@ -10,7 +10,7 @@
 
 ## Sobre o Projeto
 
-Praticando exercícios e desafios!
+Praticando exercícios e desafios, a fim de melhorar a minha lógica com JS!
 
 ### 🛠 Tecnologias
 
