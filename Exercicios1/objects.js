@@ -14,13 +14,15 @@ var maycon = {
   pontos: 0
 }
 
-calculaPontos(leandro)
-calculaPontos(maycon)
+leandro.pontos = calculaPontos(leandro)
+maycon.pontos = calculaPontos(maycon)
 
 function calculaPontos(jogador) {
   var pontos = 0;
 
   pontos = jogador.vitorias * 3 + jogador.empate * 1;
 
-  console.log(pontos);
+  return pontos;
 }
+
+var jogadores = [leandro, maycon];
